@@ -7,7 +7,7 @@ namespace babelkowe
         static void Main(string[] args)
         {
 
-            Towar[] towary = new Towar[] { new Towar() { Nazwa = "Dlugopis", Cena = 6.5m }, new Towar() { Nazwa = "Olowek", Cena = 2.5m },
+            Towar[] towary = new Towar[] { new Towar() { Nazwa = "Dlugopis", Cena = 12.0m }, new Towar() { Nazwa = "Olowek", Cena = 2.5m },
                 new Towar() { Nazwa = "Arkusz papieru", Cena = 3.2m } };
             Console.WriteLine("Przed:");
             ShowTowar(towary);
