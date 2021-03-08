@@ -11,7 +11,7 @@ namespace babelkowe
                 new Towar() { Nazwa = "Blok rysunkowy", Cena = 3.2m } };
             Console.WriteLine("Przed:");
             ShowTowar(towary);
-            BubbleSort(towary, (x, y) => x.Cena < y.Cena);
+            BubbleSort(towary, (x, y) => x.Nazwa < y.Nazwa);
             Console.WriteLine();
             Console.WriteLine("Po:");
             ShowTowar(towary);
